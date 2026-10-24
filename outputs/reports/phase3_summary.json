@@ -1,0 +1,51 @@
+{
+  "escenario_id": "COER_CUSCO_DEMO_003",
+  "reloj_simulado": "2026-10-24T08:00:00-05:00",
+  "horizonte_horas": 12,
+  "centro_coordinador": "COER_CUSCO",
+  "centros": 2,
+  "receptores": 5,
+  "recursos": 6,
+  "lineas_solicitud": 30,
+  "vehiculos": 3,
+  "nodos_viales": 22508,
+  "arcos_viales": 58712,
+  "red_version": "74c8c759471036bc8dc4",
+  "arcos_logisticos_candidatos": 9,
+  "arcos_candidatos_inalcanzables": 0,
+  "max_snap_m": 49.443772992710755,
+  "entidad_reportante_historica_preservada": true,
+  "operaciones_despachadas": 0,
+  "stock_unidades_por_recurso": {
+    "AGUA": 782,
+    "BOTIQUIN_BRIGADA": 10,
+    "HACHA": 15,
+    "MASCARILLA": 297,
+    "PALA": 33,
+    "PAQUETE_VETERINARIO": 11
+  },
+  "demanda_unidades_por_recurso": {
+    "AGUA": 1080,
+    "BOTIQUIN_BRIGADA": 13,
+    "HACHA": 23,
+    "MASCARILLA": 368,
+    "PALA": 58,
+    "PAQUETE_VETERINARIO": 18
+  },
+  "supuestos": [
+    "Operación, prioridades, cantidades, plazos, flota y puntos son simulados.",
+    "COER_CUSCO es origen y coordinador por requisito del escenario, no por inferencia histórica.",
+    "No se suman recursos de unidades distintas ni se asignan por proximidad euclídea.",
+    "Los centros mantienen inventario separado; las transferencias no crean recursos.",
+    "Las recepciones y la sede exacta del COER requieren validación operativa.",
+    "No se afirma actividad actual ni se calcula pronóstico de expansión del fuego."
+  ],
+  "inputs_sha256": {
+    "config/phase3.json": "83e61d56689985323eb60cdb7c1795092f18ddd3a5f7f310efde47617806dda5",
+    "config/puntos_logisticos_fase3.csv": "a84447763247e26e1732fc54b5929e98dbd1502c8a4f6490982ca4179a6da718",
+    "config/centros_fase3.csv": "711d3c208ccd36e29b9eed56265c32e0357a6654eb0a0ef1e89528d01a632dd4",
+    "config/recursos_fase3.csv": "5e6a1a76d9468e07628c312b803c039ccade4e76c1a1aa4cf1e90b1c105f72f3",
+    "config/perfiles_fase3.csv": "f7a1b9a367877760a451831cb7c97bd52e4df8d1abc8fe7a8e09c7747490e2c2",
+    "data/processed/incendios_para_mapeo.csv": "402932b5fdd3da7450166feb7c473b117f39a70b0a175bbdefca6ff29a8bcb66"
+  }
+}

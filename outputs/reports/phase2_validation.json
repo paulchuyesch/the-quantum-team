@@ -1,0 +1,25 @@
+{
+  "notebook": "02_eda_geospatial_vial.ipynb",
+  "method": "Celdas Python ejecutadas secuencialmente; salidas reales capturadas; estructura validada con nbformat.",
+  "python_version": "3.12.14",
+  "code_cells_executed": 11,
+  "unit_tests_passed": 24,
+  "jupyter_kernel_execution": false,
+  "kernel_limitation": "El entorno bloquea los sockets TCP e IPC necesarios para iniciar el kernel.",
+  "seconds": 15.58,
+  "summary": {
+    "registros_historicos_mapeables": 3363,
+    "provincias_representadas": 13,
+    "escenario_id": "DEMO_CUSCO_001",
+    "puntos_logisticos_simulados": 4,
+    "nodos_viales": 17812,
+    "arcos_dirigidos": 46542,
+    "pares_dirigidos_no_diagonales": 12,
+    "pares_no_alcanzables": 0,
+    "puntos_fuera_de_umbral_snap": 0,
+    "red_version": "f894db79e4b393373fb7",
+    "historial_sha256": "402932b5fdd3da7450166feb7c473b117f39a70b0a175bbdefca6ff29a8bcb66",
+    "points_config_sha256": "8d9af0630f140604403a0087bc8172936e6822be79ecb913071fa978c9c50217",
+    "interpretacion": "Matrices entre nodos viales asociados a puntos simulados. Accesos finales no validados. Sin reparto ni demanda todavía."
+  }
+}

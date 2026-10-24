@@ -1,0 +1,11 @@
+{
+  "archivo_aportado": "incendios_Cusco_2022_2026 (1).csv",
+  "archivo_en_proyecto": "incendios_Cusco_2022_2026.csv",
+  "sha256": "7f76fb11460439e136c31439dd78c732882fa289f7af11cbea0f4750e97f9716",
+  "filas": 3365,
+  "procedencia": "Archivo suministrado por la usuaria, previamente filtrado y depurado. Contenido conservado byte por byte.",
+  "fuente_documentada": "https://geoservidorperu.minam.gob.pe/arcgis/rest/services/CFOI_Dashboard_mensuales_pruebas/MapServer/0",
+  "fecha_descarga_original": null,
+  "fecha_ultima_emergencia_en_archivo": "2026-08-26",
+  "unidad_COB_AFECTA_confirmada": null
+}

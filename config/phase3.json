@@ -1,0 +1,51 @@
+{
+  "escenario_id": "COER_CUSCO_DEMO_003",
+  "margen_grados": 0.08,
+  "max_snap_m": 300,
+  "network_type": "drive",
+  "criterio_camino": "travel_time",
+  "topologia": "actual_de_OSM_no_reconstruccion_2022_2026",
+  "puntos": "config/puntos_logisticos_fase3.csv",
+  "velocidades_supuesto_kph": {
+    "motorway": 70,
+    "motorway_link": 40,
+    "trunk": 60,
+    "trunk_link": 35,
+    "primary": 50,
+    "primary_link": 30,
+    "secondary": 40,
+    "secondary_link": 25,
+    "tertiary": 35,
+    "tertiary_link": 25,
+    "unclassified": 25,
+    "residential": 20,
+    "living_street": 10,
+    "service": 15,
+    "road": 20
+  },
+  "velocidad_fallback_kph": 20,
+  "storage_folder": "data/geo/phase3",
+  "osm_xml": "data/raw/osm_vias_phase3.osm.gz",
+  "osm_metadata": "data/raw/osm_phase3_metadata.json",
+  "origen_central": "COER_CUSCO",
+  "reloj_escenario": "2026-10-24T08:00:00-05:00",
+  "horizonte_horas": 12,
+  "catalogo": "config/recursos_fase3.csv",
+  "perfiles": "config/perfiles_fase3.csv",
+  "centros": "config/centros_fase3.csv",
+  "regla_origen": "REQUISITO_USUARIO_ESCENARIO_NO_HECHO_HISTORICO",
+  "prioridad_pesos": {
+    "magnitud": 0.35,
+    "personal": 0.25,
+    "fauna": 0.25,
+    "urgencia": 0.15
+  },
+  "coeficientes_demanda": {
+    "agua_por_persona": 4,
+    "mascarillas_por_persona": 1.2,
+    "personas_manual_por_pala": 3,
+    "personas_manual_por_hacha": 8,
+    "fauna_por_paquete": 4,
+    "personas_por_botiquin": 25
+  }
+}

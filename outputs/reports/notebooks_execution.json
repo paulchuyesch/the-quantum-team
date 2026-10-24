@@ -1,0 +1,26 @@
+[
+  {
+    "notebook": "01_data_cleaning_incendios.ipynb",
+    "estado": "EJECUTADO_SIN_ERRORES",
+    "celdas_codigo": 11,
+    "segundos": 2.407271124997351
+  },
+  {
+    "notebook": "02_eda_geospatial_vial.ipynb",
+    "estado": "EJECUTADO_SIN_ERRORES",
+    "celdas_codigo": 11,
+    "segundos": 14.738895791997493
+  },
+  {
+    "notebook": "03_recursos_donaciones_solicitudes.ipynb",
+    "estado": "EJECUTADO_SIN_ERRORES",
+    "celdas_codigo": 14,
+    "segundos": 11.891656708001392
+  },
+  {
+    "notebook": "04_asignacion_ruteo_prioridades.ipynb",
+    "estado": "EJECUTADO_SIN_ERRORES",
+    "celdas_codigo": 10,
+    "segundos": 7.082350832999509
+  }
+]

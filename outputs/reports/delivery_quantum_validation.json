@@ -1,0 +1,15 @@
+{
+  "notebooks_originales_intactas": {
+    "qfire-cusco/notebooks/01_data_cleaning_incendios.ipynb": true,
+    "qfire-cusco/notebooks/02_eda_geospatial_vial.ipynb": true,
+    "qfire-cusco/notebooks/03_recursos_donaciones_solicitudes.ipynb": true,
+    "qfire-cusco/notebooks/04_asignacion_ruteo_prioridades.ipynb": true
+  },
+  "notebook05_celdas_codigo_ejecutadas": 9,
+  "notebook05_errores": 0,
+  "pruebas_clasicas": 26,
+  "pruebas_cuanticas": 6,
+  "experimento": "20 corridas QAOA, 10 MILP y 10 controles uniformes; ver phase5",
+  "simulacion_ideal_sin_qpu": true,
+  "zip_original_sha256": "072145a169149a774a150afe6c335aa9c33b8459b2b5ec2008445f7f8c1474cb"
+}

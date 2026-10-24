@@ -1,0 +1,13 @@
+{
+  "aprobado": true,
+  "rutas_dirigidas_verificadas": 342,
+  "arcos_dirigidos": 143740,
+  "nodos": 55511,
+  "red_version": "b9f79e7c3d61b5dc2165",
+  "controles": [
+    "IDs existentes en el grafo",
+    "kilómetros sumados de los arcos",
+    "minutos sumados de los arcos",
+    "versión de red uniforme"
+  ]
+}

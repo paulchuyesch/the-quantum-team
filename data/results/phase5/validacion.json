@@ -1,0 +1,12 @@
+{
+  "inputs_iguales_al_adjunto": true,
+  "escenario_id_igual_al_adjunto": true,
+  "objetivo_milp_reproducido": true,
+  "qubo_error_maximo": 1.3969838619232178e-09,
+  "qubo_optimo_factible": true,
+  "qiskit_fidelidad": 1.0000000000000049,
+  "plan_qaoa_valido": true,
+  "plan_milp_valido": true,
+  "asignacion_previa_igual_a_milp": true,
+  "notebook04_sha256": "082127fa43f578b8f5416b343600de08de78249626f2182b805953794a87d74c"
+}

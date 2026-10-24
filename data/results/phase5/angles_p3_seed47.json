@@ -1,0 +1,26 @@
+{
+  "depth": 3,
+  "seed": 47,
+  "shots": 4096,
+  "evaluations": 250,
+  "optimizer_success": false,
+  "optimizer_message": "Return from COBYLA because the objective function has been evaluated MAXFUN times.",
+  "theta": [
+    0.025357197365096413,
+    0.02589216192371855,
+    0.022458756322300457,
+    -0.487380295224511,
+    0.2414031778688266,
+    -0.4185459981996548
+  ],
+  "gamma_parameter_spread": 43.232324795901626,
+  "expectation_scaled": 3.978465736798181,
+  "feasible_probability": 0.01783899120363233,
+  "optimal_probability": 0.0014792319412658499,
+  "feasible_shots": 69,
+  "chosen_state": 18436,
+  "transport_cost": 321.6126163362296,
+  "relative_gap_pct": 0.0,
+  "optimal_sampled": true,
+  "seconds": 5.810357899987139
+}

@@ -1,0 +1,22 @@
+{
+  "filas_entrada": 3365,
+  "filas_en_ambito_antes_deduplicacion": 3365,
+  "registros_historicos": 3365,
+  "duplicados_exactos_retirados": 0,
+  "filas_fuera_de_ambito": 0,
+  "aptos_para_mapeo": 3363,
+  "no_aptos_para_mapeo": 2,
+  "fecha_minima": "2022-01-01",
+  "fecha_maxima": "2026-08-26",
+  "registros_por_anio": {
+    "2022": 1291,
+    "2023": 590,
+    "2024": 669,
+    "2025": 722,
+    "2026": 93
+  },
+  "provincias_representadas": 13,
+  "cobertura_cero": 3136,
+  "cobertura_positiva_sin_confirmar_unidad": 229,
+  "area_ha_verificada": 0
+}

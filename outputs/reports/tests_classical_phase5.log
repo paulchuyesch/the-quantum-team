@@ -1,0 +1,31 @@
+test_all_8192_subsets_accepted_by_selector_contract (test_classical.ClassicalTests.test_all_8192_subsets_accepted_by_selector_contract) ... ok
+test_all_thirteen_provinces_keep_demands_and_report_limits (test_classical.ClassicalTests.test_all_thirteen_provinces_keep_demands_and_report_limits) ... ok
+test_capacity_both_dimensions_and_inventory_conservation (test_classical.ClassicalTests.test_capacity_both_dimensions_and_inventory_conservation) ... ok
+test_dynamic_provinces_and_no_duplicates (test_classical.ClassicalTests.test_dynamic_provinces_and_no_duplicates) ... ok
+test_empty_export_replaces_latest_and_cannot_export_stale_result (test_classical.ClassicalTests.test_empty_export_replaces_latest_and_cannot_export_stale_result) ... ok
+test_empty_selection_has_no_demands_deliveries_or_routes (test_classical.ClassicalTests.test_empty_selection_has_no_demands_deliveries_or_routes) ... ok
+test_every_province_has_documented_receiver_and_coverage_state (test_classical.ClassicalTests.test_every_province_has_documented_receiver_and_coverage_state) ... ok
+test_fauna_on_and_off_changes_only_automatic_veterinary_demand (test_classical.ClassicalTests.test_fauna_on_and_off_changes_only_automatic_veterinary_demand) ... ok
+test_fixed_inventory_does_not_scale_with_selection (test_classical.ClassicalTests.test_fixed_inventory_does_not_scale_with_selection) ... ok
+test_geometry_uses_real_directed_edges_without_extra_delivery_stops (test_classical.ClassicalTests.test_geometry_uses_real_directed_edges_without_extra_delivery_stops) ... ok
+test_invalid_profiles_weights_or_inactive_overrides_fail (test_classical.ClassicalTests.test_invalid_profiles_weights_or_inactive_overrides_fail) ... ok
+test_manual_quantities_and_tool_switch (test_classical.ClassicalTests.test_manual_quantities_and_tool_switch) ... ok
+test_missing_coverage_preserves_province_and_reports_error (test_classical.ClassicalTests.test_missing_coverage_preserves_province_and_reports_error) ... ok
+test_normalized_selection_deduplicates (test_classical.ClassicalTests.test_normalized_selection_deduplicates) ... ok
+test_only_urubamba_and_required_subsets (test_classical.ClassicalTests.test_only_urubamba_and_required_subsets) ... ok
+test_pending_local_and_future_donations_not_spent (test_classical.ClassicalTests.test_pending_local_and_future_donations_not_spent) ... ok
+test_personnel_and_smoke_affect_demands (test_classical.ClassicalTests.test_personnel_and_smoke_affect_demands) ... ok
+test_priority_changes_actual_allocation_under_scarcity (test_classical.ClassicalTests.test_priority_changes_actual_allocation_under_scarcity) ... ok
+test_receptor_choice_must_belong_to_selected_province (test_classical.ClassicalTests.test_receptor_choice_must_belong_to_selected_province) ... ok
+test_reproducible_plan_and_configuration_hash (test_classical.ClassicalTests.test_reproducible_plan_and_configuration_hash) ... ok
+test_reserved_and_soon_expiring_stock_excluded (test_classical.ClassicalTests.test_reserved_and_soon_expiring_stock_excluded) ... ok
+test_selection_change_invalidates_old_results (test_classical.ClassicalTests.test_selection_change_invalidates_old_results) ... ok
+test_small_milp_objective_matches_exhaustive_reference (test_classical.ClassicalTests.test_small_milp_objective_matches_exhaustive_reference) ... ok
+test_unknown_province_rejected (test_classical.ClassicalTests.test_unknown_province_rejected) ... ok
+test_validator_rejects_forged_overdelivery (test_classical.ClassicalTests.test_validator_rejects_forged_overdelivery) ... ok
+test_zero_deadline_has_no_delivery (test_classical.ClassicalTests.test_zero_deadline_has_no_delivery) ... ok
+
+----------------------------------------------------------------------
+Ran 26 tests in 26.435s
+
+OK

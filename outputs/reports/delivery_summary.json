@@ -1,0 +1,18 @@
+{
+  "notebooks_ejecutados": [
+    "01",
+    "02",
+    "03",
+    "04"
+  ],
+  "pruebas_aprobadas": 67,
+  "pruebas_fallidas": 0,
+  "provincias_con_receptor_y_ruta": 13,
+  "alcance": "Optimización clásica hasta notebook 04",
+  "limitaciones": [
+    "COER provisional",
+    "Un viaje por vehículo, máximo tres paradas",
+    "Sin recogidas ni stock de hubs",
+    "Demostración académica, no operación oficial"
+  ]
+}

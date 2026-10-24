@@ -1,0 +1,11 @@
+test_allocation_relaxation_matches_independent_linear_program (test_quantum.QuantumTests.test_allocation_relaxation_matches_independent_linear_program) ... ok
+test_capacity_assumption_is_enforced (test_quantum.QuantumTests.test_capacity_assumption_is_enforced) ... ok
+test_decoder_rejects_zero_state_instead_of_repairing (test_quantum.QuantumTests.test_decoder_rejects_zero_state_instead_of_repairing) ... ok
+test_exact_reduced_plan_passes_original_physical_validator (test_quantum.QuantumTests.test_exact_reduced_plan_passes_original_physical_validator) ... ok
+test_numpy_statevector_matches_qiskit_for_nontrivial_angles (test_quantum.QuantumTests.test_numpy_statevector_matches_qiskit_for_nontrivial_angles) ... ok
+test_out_of_scope_size_does_not_silently_truncate (test_quantum.QuantumTests.test_out_of_scope_size_does_not_silently_truncate) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 3.938s
+
+OK

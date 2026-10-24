@@ -1,0 +1,27 @@
+{
+  "escenario_id": "DEMO_CUSCO_001",
+  "margen_grados": 0.08,
+  "max_snap_m": 300,
+  "network_type": "drive",
+  "criterio_camino": "travel_time",
+  "topologia": "actual_de_OSM_no_reconstruccion_2022_2026",
+  "puntos": "config/puntos_logisticos_demo.csv",
+  "velocidades_supuesto_kph": {
+    "motorway": 70,
+    "motorway_link": 40,
+    "trunk": 60,
+    "trunk_link": 35,
+    "primary": 50,
+    "primary_link": 30,
+    "secondary": 40,
+    "secondary_link": 25,
+    "tertiary": 35,
+    "tertiary_link": 25,
+    "unclassified": 25,
+    "residential": 20,
+    "living_street": 10,
+    "service": 15,
+    "road": 20
+  },
+  "velocidad_fallback_kph": 20
+}

@@ -1,0 +1,19 @@
+{
+  "archivo_fuente": "incendios_Cusco_2022_2026.csv",
+  "sha256": "7f76fb11460439e136c31439dd78c732882fa289f7af11cbea0f4750e97f9716",
+  "filas_fuente": 3365,
+  "formato": "CSV UTF-8 con BOM",
+  "lectura": "texto, sin inferir faltantes NA",
+  "ambito": {
+    "departamento": "CUSCO",
+    "anio_inicio": 2022,
+    "anio_fin": 2026
+  },
+  "unidad_COB_AFECTA_confirmada": null,
+  "fecha_descarga_original": null,
+  "fecha_maxima_registro": "2026-08-26",
+  "origen": "Archivo proporcionado por la usuaria, previamente filtrado y depurado; conservado sin modificar.",
+  "servicio_fuente_documentado": "https://geoservidorperu.minam.gob.pe/arcgis/rest/services/CFOI_Dashboard_mensuales_pruebas/MapServer/0",
+  "alcance_temporal": "La fecha máxima registrada no acredita cobertura completa del año ni actualización en vivo.",
+  "coordenadas": "WGS84 suministradas; control amplio de Perú, sin certificación de pertenencia al polígono de Cusco."
+}

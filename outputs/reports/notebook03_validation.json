@@ -1,0 +1,13 @@
+{
+  "file": "notebooks/03_recursos_donaciones_solicitudes.ipynb",
+  "method": "Python secuencial con espacio de nombres compartido y captura de salidas; sin kernel Jupyter por restricción de sockets del entorno de validación",
+  "cells": 29,
+  "code_cells_executed": 14,
+  "errors": 0,
+  "nbformat_valid": true,
+  "figures": [
+    "03_cobertura_por_centro.png",
+    "03_necesidades_por_recurso.png",
+    "03_red_centros_y_receptores.png"
+  ]
+}

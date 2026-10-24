@@ -1,0 +1,100 @@
+{
+  "escenario_id": "e183b86581fe680be96868c0efe425f5cc447334b2b886456effa1fa14696cbc",
+  "metodo": "ASIGNACION_CLASICA_QAOA_SIMULADO",
+  "estado_solver": "MUESTRA_QAOA_FACTIBLE_VALIDADA",
+  "provincias_seleccionadas": [
+    "ANTA",
+    "CALCA",
+    "PARURO",
+    "URUBAMBA"
+  ],
+  "provincias_atendidas": [
+    "ANTA",
+    "CALCA",
+    "PARURO",
+    "URUBAMBA"
+  ],
+  "vehiculos_utilizados": 2,
+  "distancia_km": 248.7583943158523,
+  "duracion_vial_min": 291.41688808150735,
+  "penalizacion_faltantes": 3499.890216666666,
+  "costo_transporte": 321.61261633622917,
+  "objetivo": 3821.5028330028954,
+  "objetivo_sin_entregas": 14432.887,
+  "qubits": 16,
+  "tours_candidatos_reducidos": 14,
+  "recursos": {
+    "AGUA": {
+      "solicitado": 980,
+      "asignado": 670,
+      "faltante": 310,
+      "stock_coer_utilizable": 670,
+      "saldo_coer": 0,
+      "cobertura": 0.6836734693877551
+    },
+    "BOTIQUIN_BRIGADA": {
+      "solicitado": 12,
+      "asignado": 8,
+      "faltante": 4,
+      "stock_coer_utilizable": 8,
+      "saldo_coer": 0,
+      "cobertura": 0.6666666666666666
+    },
+    "HACHA": {
+      "solicitado": 20,
+      "asignado": 12,
+      "faltante": 8,
+      "stock_coer_utilizable": 12,
+      "saldo_coer": 0,
+      "cobertura": 0.6
+    },
+    "MASCARILLA": {
+      "solicitado": 308,
+      "asignado": 258,
+      "faltante": 50,
+      "stock_coer_utilizable": 258,
+      "saldo_coer": 0,
+      "cobertura": 0.8376623376623377
+    },
+    "PALA": {
+      "solicitado": 51,
+      "asignado": 27,
+      "faltante": 24,
+      "stock_coer_utilizable": 27,
+      "saldo_coer": 0,
+      "cobertura": 0.5294117647058824
+    },
+    "PAQUETE_VETERINARIO": {
+      "solicitado": 17,
+      "asignado": 8,
+      "faltante": 9,
+      "stock_coer_utilizable": 8,
+      "saldo_coer": 0,
+      "cobertura": 0.47058823529411764
+    }
+  },
+  "red_version": "b9f79e7c3d61b5dc2165",
+  "inputs_sha256": {
+    "config/phase4.json": "d8f805eb2e26b78f866b5875bca6e757a00b600c3cc4f275f513fdb7dc263292",
+    "data/processed/incendios_historicos.csv": "657a1cd95c32e514ba9adeebe632a13f7af397d2b67e36d5b89200484bc53cd4",
+    "config/receptores_fase4.csv": "410de8a4d004878fdaf7a651ec30c540b6363c939ab13980a9ea4c2c6424c12c",
+    "config/recursos_fase3.csv": "5e6a1a76d9468e07628c312b803c039ccade4e76c1a1aa4cf1e90b1c105f72f3",
+    "data/simulated/phase3/inventario_por_centro.csv": "ecaadc135c127b0c8f256f1a23fd28725ae39ad518700fe367cdc00d71e93c1a",
+    "data/simulated/phase3/donaciones.csv": "88089d6ea860365b8c5dc856074b04f743f5795114e10363a2fcebb9d1ae0a9c",
+    "data/simulated/phase3/flota.csv": "91e422880d89058dff96aee262c31693fa3175568f2d24743c1b61de2793ede0",
+    "data/geo/phase4/rutas_pares.geojson.gz": "3fc538e2434359af4c176832d195ff5dd9528b94cf389c3c425c62034defda65",
+    "data/geo/phase4/network_manifest.json": "e80dfb09581c94898473a0d41a516124986591d3ecc4fa085a0bca6db9f9fa5f",
+    "data/optimization/phase4/distance_matrix.csv": "5ea989fdb9159b7b09747c16cbbe2073581a3e528cdcb5f4d8f449a4c3b95a1b",
+    "data/optimization/phase4/duration_matrix.csv": "0fd7caf7e4df7ab4f84961d5dd1fbe8893145a35c1608e8915c06c40a36e3431",
+    "data/optimization/phase4/reachability_matrix.csv": "6073f5688b7f31f4f64c065bc6ea63a7f9ee42a6ecb6b0ba4d4c7f1964a92960",
+    "data/geo/phase4/snap_report.csv": "32bcb49adda1a807603e3f04a1c02c36eb23430c8f5aee9594aea9a5b88b1a5b",
+    "config/puntos_logisticos_fase4.csv": "3ded26f7aaf5993f4158e50ad5a40ef93da6e6199a5a490d7a5fae69be4de669"
+  },
+  "max_paradas_por_vehiculo": 3,
+  "limites": [
+    "Simulación ideal por vector de estado; sin ejecución en QPU.",
+    "Asignación por recurso fijada antes de QAOA; rutas comunes, sin dividir lotes.",
+    "La igualdad con MILP se verifica para esta instancia; no se generaliza.",
+    "Operación simulada y coordenadas/accesos sin validación operativa."
+  ]
+}

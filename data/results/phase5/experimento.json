@@ -1,0 +1,59 @@
+{
+  "provincias": [
+    "ANTA",
+    "CALCA",
+    "PARURO",
+    "URUBAMBA"
+  ],
+  "scenario_id": "e183b86581fe680be96868c0efe425f5cc447334b2b886456effa1fa14696cbc",
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51
+  ],
+  "depths": [
+    1,
+    3
+  ],
+  "shots": 4096,
+  "maxiter": 250,
+  "optimizer": "COBYLA",
+  "training": "exact_statevector_expectation",
+  "sampling": "numpy.multinomial",
+  "backend": "CPU ideal statevector; Qiskit independent verification",
+  "penalty_A": 2788.587518293439,
+  "qubits": 16,
+  "routes": 14,
+  "feasible_basis_states": 13,
+  "preparation_seconds": 0.08123870007693768,
+  "exact_transport_cost": 321.6126163362296,
+  "primary_run": "p3_seed42",
+  "primary_selection": "predefinida; sin selección del mejor resultado entre semillas",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "scipy": "1.18.1",
+    "qiskit": "2.6.1",
+    "matplotlib": "3.11.2",
+    "nbformat": "5.11.1",
+    "nbclient": "0.11.0"
+  },
+  "qiskit_gate_counts": {
+    "rzz": 360,
+    "rz": 48,
+    "rx": 48,
+    "h": 16
+  },
+  "qiskit_logical_depth": 68,
+  "uniform_optimal_probability": 1.52587890625e-05,
+  "uniform_feasible_probability": 0.0001983642578125
+}

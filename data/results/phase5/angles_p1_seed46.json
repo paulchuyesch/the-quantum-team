@@ -1,0 +1,22 @@
+{
+  "depth": 1,
+  "seed": 46,
+  "shots": 4096,
+  "evaluations": 159,
+  "optimizer_success": true,
+  "optimizer_message": "Return from COBYLA because the trust region radius reaches its lower bound.",
+  "theta": [
+    0.0495077635286144,
+    -0.5040028866942846
+  ],
+  "gamma_parameter_spread": 43.232324795901626,
+  "expectation_scaled": 5.015240128690268,
+  "feasible_probability": 0.01593425521119213,
+  "optimal_probability": 0.0013479802660872745,
+  "feasible_shots": 59,
+  "chosen_state": 18436,
+  "transport_cost": 321.6126163362296,
+  "relative_gap_pct": 0.0,
+  "optimal_sampled": true,
+  "seconds": 1.412856200011447
+}

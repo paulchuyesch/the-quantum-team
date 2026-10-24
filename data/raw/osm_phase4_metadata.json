@@ -1,0 +1,20 @@
+{
+  "url": "https://download.geofabrik.de/south-america/peru-latest.osm.pbf",
+  "downloaded_at_utc": "2026-10-24T19:43:32.134671+00:00",
+  "last_modified": "Fri, 23 Oct 2026 23:18:32 GMT",
+  "content_length": "256875535",
+  "bbox_lon_lat": [
+    -72.7730334,
+    -14.8730081,
+    -71.1465322,
+    -12.7834092
+  ],
+  "nodes": 1095970,
+  "ways": 40814,
+  "xml_sha256": "eca91fe463054ff469d2435d2ca582bc97dcdfd8dfc67702afb23dabd1967a0e",
+  "pbf_sha256": "0cf23ce484f776b412d617f8fe508042524a57205553b94c6e72ec5a4fad45d4",
+  "subset": "Vías seleccionadas por highway y acceso, con geometría que intersecta el bbox. Se conservan sus nodos completos.",
+  "turn_restrictions": "Las relaciones de restricciones de giro no se incluyen en este prototipo.",
+  "attribution": "© OpenStreetMap contributors; extracto Geofabrik; ODbL 1.0",
+  "compression": "gzip"
+}

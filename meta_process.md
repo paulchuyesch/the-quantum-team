@@ -1,0 +1,11 @@
+# Estado de proceso — cierre
+- Estado: fase 04 clásica implementada y verificada.
+- Auditoría: ZIP original de 92 archivos; notebooks 01–03 revisados y conservados con un ajuste de paleta compatible en 02.
+- Validación: 67 pruebas aprobadas, sin errores ni omisiones; 8.192 subconjuntos comprobados en el selector. Los MILP se ejecutaron en escenarios representativos, no en los 8.192.
+- Ejecución: notebooks 01–04 completados en kernels reales sin errores.
+- Red nueva: 55.511 nodos, 143.740 arcos, 342 caminos dirigidos verificados contra el grafo; 13 provincias con ida/retorno al COER; 19 puntos dentro de 300 m.
+- Demostración: 4 provincias, 2 vehículos, 248,758 km incluidos retornos; faltantes por recurso documentados.
+- Integridad: todos los raw originales intactos, incluidos CSV histórico y extractos OSM previos.
+- Límites: ubicación COER provisional; localidades OSM no acreditan instalaciones. Depósito único, un viaje por vehículo, máximo 3 paradas. No se usa stock de hubs ni lotes que vencen durante el horizonte.
+- Incidencias resueltas: dependencias aisladas; permiso de sockets de kernel; caché gráfica local para macOS; filtro nativo para lectura eficiente de nodos OSM. Se corrigió una expectativa de prueba que trataba una demanda cero como faltante vial.
+- Fuera de alcance: notebook 05, QAOA, web, deploy y despachos reales.

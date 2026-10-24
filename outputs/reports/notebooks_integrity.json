@@ -1,0 +1,22 @@
+[
+  {
+    "notebook": "01_data_cleaning_incendios.ipynb",
+    "contenido_original_conservado": true,
+    "ajustes_compatibilidad": []
+  },
+  {
+    "notebook": "02_eda_geospatial_vial.ipynb",
+    "contenido_original_conservado": true,
+    "ajustes_compatibilidad": [
+      {
+        "celda": 6,
+        "cambio": "Color de respaldo para incorporar otros años"
+      }
+    ]
+  },
+  {
+    "notebook": "03_recursos_donaciones_solicitudes.ipynb",
+    "contenido_original_conservado": true,
+    "ajustes_compatibilidad": []
+  }
+]

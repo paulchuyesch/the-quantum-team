@@ -1,0 +1,5 @@
+﻿PROVINCIA,PUNTO_ID,PREPARADO,ESTADO,NOMBRE,FUENTE_COORDENADA
+ANTA,CAP_0803,True,PREPARADO_DEMO,Anta: referencia de localidad OSM (no almacén validado),https://www.openstreetmap.org/node/2367668493
+CALCA,CAP_0804,True,PREPARADO_DEMO,Calca: referencia de localidad OSM (no almacén validado),https://www.openstreetmap.org/node/436613486
+PARURO,CAP_0810,True,PREPARADO_DEMO,Paruro: referencia de localidad OSM (no almacén validado),https://www.openstreetmap.org/node/2314231210
+URUBAMBA,CAP_0813,True,PREPARADO_DEMO,Urubamba: referencia de localidad OSM (no almacén validado),https://www.openstreetmap.org/node/441008049

@@ -1,0 +1,11 @@
+# Dependencias mínimas para ejecutar la fase 05 y las pruebas clásica/cuántica.
+# Las fases 01–03 y regeneración vial mantienen requirements.txt.
+numpy==2.3.5
+pandas==3.0.1
+scipy==1.18.1
+qiskit==2.6.1
+matplotlib==3.11.2
+folium==0.20.0
+nbformat==5.11.1
+nbclient==0.11.0
+ipykernel==7.4.0

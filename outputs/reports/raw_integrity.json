@@ -1,0 +1,11 @@
+{
+  "todos_los_raw_originales_intactos": true,
+  "archivos": {
+    "data/raw/incendios_Cusco_2022_2026.csv": true,
+    "data/raw/osm_extract_metadata.json": true,
+    "data/raw/osm_phase3_metadata.json": true,
+    "data/raw/osm_vias_demo.osm": true,
+    "data/raw/osm_vias_phase3.osm.gz": true,
+    "data/raw/source_metadata.json": true
+  }
+}

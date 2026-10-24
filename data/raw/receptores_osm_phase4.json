@@ -1,0 +1,252 @@
+[
+  {
+    "PROVINCIA": "ACOMAYO",
+    "node": 2317137705,
+    "lat": -13.9192017,
+    "lon": -71.6834556,
+    "tags": {
+      "capital": "6",
+      "ele": "3215",
+      "name": "Acomayo",
+      "pe:ubigeo": "0802010001",
+      "place": "town",
+      "population": "2556",
+      "population:date": "2025",
+      "source": "bing;MTC",
+      "source:population": "https://reportes.geoperu.gob.pe/censos/2025/0802010001",
+      "wikidata": "Q2582682",
+      "wikimedia_commons": "Category:Acomayo",
+      "wikipedia": "es:Acomayo"
+    }
+  },
+  {
+    "PROVINCIA": "ANTA",
+    "node": 2367668493,
+    "lat": -13.4707489,
+    "lon": -72.1491038,
+    "tags": {
+      "capital": "6",
+      "ele": "3422",
+      "name": "Anta",
+      "pe:ubigeo": "0803010001",
+      "place": "town",
+      "population": "10961",
+      "population:date": "2025",
+      "source": "bing;MTC",
+      "source:population": "https://reportes.geoperu.gob.pe/censos/2025/0803010001",
+      "wikidata": "Q3348268",
+      "wikipedia": "es:Anta (Anta)"
+    }
+  },
+  {
+    "PROVINCIA": "CALCA",
+    "node": 436613486,
+    "lat": -13.3216818,
+    "lon": -71.9560084,
+    "tags": {
+      "capital": "6",
+      "ele": "2932",
+      "name": "Calca",
+      "pe:ubigeo": "0804010001",
+      "place": "town",
+      "population": "14569",
+      "population:date": "2025",
+      "source:population": "https://reportes.geoperu.gob.pe/censos/2025/0804010001",
+      "url": "http://www.municalca.gob.pe/",
+      "wikidata": "Q3344215",
+      "wikipedia": "es:Calca"
+    }
+  },
+  {
+    "PROVINCIA": "CANAS",
+    "node": 441888431,
+    "lat": -14.2169433,
+    "lon": -71.4320333,
+    "tags": {
+      "capital": "6",
+      "ele": "3913",
+      "name": "Yanaoca",
+      "pe:ubigeo": "0805010001",
+      "place": "town",
+      "population": "3399",
+      "population:date": "2025",
+      "source": "bing;MTC",
+      "source:population": "https://reportes.geoperu.gob.pe/censos/2025/0805010001",
+      "wikidata": "Q2989624",
+      "wikimedia_commons": "Category:Yanaoca",
+      "wikipedia": "es:Yanaoca"
+    }
+  },
+  {
+    "PROVINCIA": "CANCHIS",
+    "node": 262945603,
+    "lat": -14.2729288,
+    "lon": -71.2265322,
+    "tags": {
+      "capital": "6",
+      "ele": "3554",
+      "name": "Sicuani",
+      "name:ru": "Сикуани",
+      "pe:ubigeo": "0806010001",
+      "place": "town",
+      "population": "44981",
+      "population:date": "2025",
+      "source": "bing;MTC",
+      "source:population": "https://reportes.geoperu.gob.pe/censos/2025/0806010001",
+      "wikidata": "Q4419079",
+      "wikimedia_commons": "Category:Sicuani",
+      "wikipedia": "es:Sicuani"
+    }
+  },
+  {
+    "PROVINCIA": "CHUMBIVILCAS",
+    "node": 467653110,
+    "lat": -14.4497342,
+    "lon": -72.0821971,
+    "tags": {
+      "capital": "6",
+      "ele": "3666",
+      "name": "Santo Tomás",
+      "pe:ubigeo": "0807010001",
+      "place": "town",
+      "population": "14129",
+      "population:date": "2025",
+      "source": "landsat",
+      "source:population": "https://reportes.geoperu.gob.pe/censos/2025/0807010001",
+      "wikidata": "Q1974445",
+      "wikimedia_commons": "Category:Santo Tomás, Chumbivilcas",
+      "wikipedia": "es:Santo Tomás (Chumbivilcas)"
+    }
+  },
+  {
+    "PROVINCIA": "ESPINAR",
+    "node": 267367682,
+    "lat": -14.7930081,
+    "lon": -71.412802,
+    "tags": {
+      "alt_name": "Espinar",
+      "capital": "6",
+      "description": "Capital de la provincia de Espinar",
+      "ele": "3925",
+      "loc_name": "Espinar",
+      "name": "Yauri",
+      "name:es": "Yauri (Espinar)",
+      "pe:ubigeo": "0808010001",
+      "place": "town",
+      "population": "32372",
+      "population:date": "2025",
+      "source": "bing;MTC",
+      "source:population": "https://reportes.geoperu.gob.pe/censos/2025/0808010001",
+      "wikidata": "Q3345555",
+      "wikimedia_commons": "Category:Yauri",
+      "wikipedia": "es:Yauri"
+    }
+  },
+  {
+    "PROVINCIA": "LA CONVENCION",
+    "node": 1990593833,
+    "lat": -12.8634092,
+    "lon": -72.6930334,
+    "tags": {
+      "capital": "6",
+      "ele": "1053",
+      "name": "Quillabamba",
+      "pe:ubigeo": "0809010001",
+      "place": "town",
+      "population": "32708",
+      "population:date": "2025",
+      "source:population": "https://reportes.geoperu.gob.pe/censos/2025/0809010001",
+      "wikidata": "Q2534936",
+      "wikipedia": "es:Quillabamba"
+    }
+  },
+  {
+    "PROVINCIA": "PARURO",
+    "node": 2314231210,
+    "lat": -13.761311,
+    "lon": -71.8474048,
+    "tags": {
+      "capital": "6",
+      "ele": "3062",
+      "name": "Paruro",
+      "pe:ubigeo": "0810010001",
+      "place": "town",
+      "population": "1724",
+      "population:date": "2025",
+      "source": "bing;MTC",
+      "source:population": "https://reportes.geoperu.gob.pe/censos/2025/0810010001",
+      "wikidata": "Q2989645",
+      "wikipedia": "es:Paruro"
+    }
+  },
+  {
+    "PROVINCIA": "PAUCARTAMBO",
+    "node": 292250901,
+    "lat": -13.3176052,
+    "lon": -71.5959691,
+    "tags": {
+      "capital": "6",
+      "ele": "2905",
+      "name": "Paucartambo",
+      "pe:ubigeo": "0811010001",
+      "place": "town",
+      "population": "4925",
+      "population:date": "2025",
+      "source": "bing;MTC",
+      "source:population": "https://reportes.geoperu.gob.pe/censos/2025/0811010001",
+      "wikidata": "Q2989631",
+      "wikipedia": "es:Paucartambo"
+    }
+  },
+  {
+    "PROVINCIA": "QUISPICANCHI",
+    "node": 1052796010,
+    "lat": -13.6879153,
+    "lon": -71.6255835,
+    "tags": {
+      "capital": "6",
+      "ele": "3152",
+      "name": "Urcos",
+      "pe:ubigeo": "0812010075",
+      "place": "town",
+      "population": "20",
+      "population:date": "2025",
+      "source": "bing;MTC",
+      "source:population": "https://reportes.geoperu.gob.pe/censos/2025/0812010075",
+      "wikidata": "Q2989619",
+      "wikipedia": "es:Urcos"
+    }
+  },
+  {
+    "PROVINCIA": "URUBAMBA",
+    "node": 441008049,
+    "lat": -13.305953,
+    "lon": -72.1159706,
+    "tags": {
+      "capital": "6",
+      "ele": "2872",
+      "name": "Urubamba",
+      "pe:ubigeo": "0813010001",
+      "place": "town",
+      "population": "15215",
+      "population:date": "2025",
+      "source:population": "https://reportes.geoperu.gob.pe/censos/2025/0813010001",
+      "wikidata": "Q2304483",
+      "wikipedia": "es:Urubamba (ciudad)"
+    }
+  },
+  {
+    "PROVINCIA": "CUSCO",
+    "node": 59115290,
+    "lat": -13.5170887,
+    "lon": -71.9785356,
+    "tags": {
+      "name": "Cuzco",
+      "official_name": "Cusco",
+      "place": "city",
+      "capital": "4",
+      "wikidata": "Q5582862",
+      "wikipedia": "es:Cuzco"
+    }
+  }
+]

@@ -1,0 +1,63 @@
+{
+  "query_key": "7745c3a3e6b8c9519e82461fa8c09c10511422f551d0ff6ef073d80dd2f9de28",
+  "red_version": "74c8c759471036bc8dc4",
+  "source_kind": "EXTRACTO_OSM_INCLUIDO",
+  "xml_sha256": "6e245643588718fb6a2836db48846fbc59a4cfdf98f9854e035559b7a5d44c45",
+  "bbox_lon_lat": [
+    -72.228,
+    -14.051146,
+    -71.7515418,
+    -13.224
+  ],
+  "nodos": 22508,
+  "arcos_dirigidos": 58712,
+  "componentes_debiles": 78,
+  "scope": "Red del escenario logístico; el historial conserva todo Cusco.",
+  "network_type": "drive",
+  "criterio_camino": "travel_time",
+  "tiempos": "ESTIMADOS, sin tráfico en vivo",
+  "supuestos_velocidades_kph": {
+    "motorway": 70,
+    "motorway_link": 40,
+    "trunk": 60,
+    "trunk_link": 35,
+    "primary": 50,
+    "primary_link": 30,
+    "secondary": 40,
+    "secondary_link": 25,
+    "tertiary": 35,
+    "tertiary_link": 25,
+    "unclassified": 25,
+    "residential": 20,
+    "living_street": 10,
+    "service": 15,
+    "road": 20
+  },
+  "fallback_kph": 20,
+  "provenance": {
+    "url": "https://download.geofabrik.de/south-america/peru-latest.osm.pbf",
+    "last_modified": "Fri, 23 Oct 2026 23:18:32 GMT",
+    "downloaded_at_utc": "2026-10-24T18:17:13Z",
+    "content_length": "256875535",
+    "bbox_lon_lat": [
+      -72.228,
+      -14.051146,
+      -71.7515418,
+      -13.224
+    ],
+    "nodes": 278399,
+    "ways": 15866,
+    "xml_sha256": "6e245643588718fb6a2836db48846fbc59a4cfdf98f9854e035559b7a5d44c45",
+    "pbf_sha256": "0cf23ce484f776b412d617f8fe508042524a57205553b94c6e72ec5a4fad45d4",
+    "subset": "Vías seleccionadas por highway y acceso, con geometría que intersecta el bbox. Se conservan sus nodos completos.",
+    "turn_restrictions": "Las relaciones de restricciones de giro no se incluyen en este prototipo.",
+    "attribution": "© OpenStreetMap contributors; extracto Geofabrik; ODbL 1.0",
+    "compression": "gzip"
+  },
+  "attribution": "© OpenStreetMap contributors; ODbL 1.0",
+  "limitations": [
+    "No certifica transitabilidad ni aptitud de un vehículo concreto.",
+    "La red actual no reconstruye las carreteras de cada fecha histórica.",
+    "No se modelan restricciones de giro basadas en relaciones OSM en este prototipo."
+  ]
+}
