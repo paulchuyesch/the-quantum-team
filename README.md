@@ -89,7 +89,7 @@ La aptitud para mapeo es un control de calidad del historial, no una certificaci
 | 02 — Red vial y puntos logísticos | Implementada | Red OSM, puntos simulados, mapa y costos |
 | 03 — Recursos, donaciones y solicitudes | Implementada | Origen COER, centro Paruro, inventario por centro, pedidos y flota |
 | 04 — Asignación y ruteo clásicos | Implementada | Cantidades, vehículos, rutas dirigidas, prioridades y faltantes |
-| 05 — QAOA y benchmark | Diseñada | Comparar una subinstancia con referencia clásica |
+| 05 — QAOA y benchmark con Qiskit | Implementada | Optimización cuántica variacional (Qiskit 2.6.1 / QAOA) y benchmark con MILP |
 | 06 — Bloqueos y replanificación | Diseñada | Recalcular con carga, posición y entregas vigentes |
 
 Los notebooks de las fases futuras se crearán cuando se implemente cada fase. Los registros históricos no se consideran incidentes simultáneamente activos.
@@ -140,6 +140,26 @@ Sin `--provincias` exporta un escenario vacío. Las 13 provincias se obtienen de
 El MILP decide cantidades y tours, con inventario fijo del COER, capacidad en kg/m³, plazos y retorno. La prioridad entra en la penalización por necesidad no cubierta. Se usan únicamente donaciones recibidas/liberadas y lotes vigentes durante todo el horizonte; el stock de hubs no se consume. **Simplificación: un viaje por vehículo y hasta tres paradas de entrega.** El óptimo, si se prueba, corresponde a ese modelo restringido.
 
 Los resultados se guardan en `data/results/phase4/<sha256>/` y `latest.json` identifica el escenario vigente. El notebook genera mapa y gráficos. No se incluye aplicación web ni notebook 05. Instalación, configuración, regeneración vial y límites en [docs/phase4.md](docs/phase4.md). Auditoría en [docs/auditoria_fase4.md](docs/auditoria_fase4.md).
+
+## Usar la fase 05 cuántica con Qiskit
+
+Esta fase implementa la optimización cuántica variacional mediante **Qiskit (v2.6.1)** para resolver la selección y ruteo de brigadas logísticas ante emergencias de incendios forestales.
+
+### ¿Cómo se utiliza Qiskit en el proyecto?
+
+- **Modelado Cuántico:** El problema logístico se formula como un problema de optimización binaria sin restricciones (**QUBO**) y se traduce a un **Hamiltoniano de Ising** de 16 cúbits (14 rutas candidatas + 2 cúbits de holgura).
+- **Circuito QAOA con `QuantumCircuit`:** En `src/qfire_cusco/optimization_quantum.py`, la función `qiskit_circuit(problem, theta)` construye explícitamente el circuito cuántico con compuertas Hadamard ($H$), operadores de costo $R_Z(2\gamma h_i)$ y $R_{ZZ}(2\gamma J_{ij})$, y operadores mezcladores $R_X(2\beta)$.
+- **Simulación y Validación de Estados:** En `scripts/run_quantum.py` y `tests/test_quantum.py`, se utiliza `qiskit.quantum_info.Statevector` para verificar matemáticamente que la evolución del estado cuántico coincide exactamente con la solución analítica, logrando una **fidelidad cuántica del 100% ($F = 1.0$)**.
+- **Exportación en OpenQASM 3:** El circuito compilado (16 cúbits lógicos, 68 compuertas) se exporta usando `qiskit.qasm3` a `data/results/phase5/circuito_qaoa.qasm` y en diagrama ASCII a `data/results/phase5/circuito_qaoa.txt`, dejándolo listo para su despacho directo a procesadores cuánticos (QPU) de IBM Quantum.
+
+### Ejecución del pipeline cuántico
+
+```bash
+python -m pip install -r requirements-quantum.txt
+python scripts/run_quantum.py
+```
+
+Para visualizar el circuito, analizar la convergencia de COBYLA y comparar los resultados frente al solver clásico MILP (HiGHS), abrir el notebook interactivo `notebooks/05_optimizacion_cuantica_comparacion.ipynb`. Guía completa y detalles científicos en [README_CUANTICA.md](README_CUANTICA.md).
 
 ## Comprobación
 

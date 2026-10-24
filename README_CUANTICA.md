@@ -25,6 +25,14 @@ python -m unittest discover -s tests -p test_classical.py -v
 
 Abrir `notebooks/05_optimizacion_cuantica_comparacion.ipynb` y ejecutar las celdas. El script regenera el benchmark completo; la notebook recalcula la corrida principal y presenta el benchmark guardado. No se requieren credenciales, descargas de carreteras ni cuentas cuánticas. Los tiempos varían por equipo; las conclusiones estáticas describen el benchmark entregado.
 
+## Integración con Qiskit (v2.6.1)
+
+El proyecto utiliza **Qiskit** como biblioteca cuántica fundamental para modelar, simular y exportar el circuito variacional:
+- **`qiskit.circuit.QuantumCircuit`**: Construcción explícita del circuito QAOA paramétrico ($p$ capas, compuertas $H$, $R_Z$, $R_{ZZ}$ y mezclador $R_X$).
+- **`qiskit.quantum_info.Statevector`**: Validación rigurosa de los vectores de estado y cálculo de fidelidad cuántica ($F = 1.0$) frente al simulador analítico.
+- **`qiskit.qasm3`**: Serialización del circuito a OpenQASM 3 (`data/results/phase5/circuito_qaoa.qasm`) compatible con el ecosistema IBM Quantum.
+- **`circuit.draw(output='text')`**: Renderizado del circuito esquemático en `data/results/phase5/circuito_qaoa.txt`.
+
 ## Archivos principales
 
 - `src/qfire_cusco/optimization_quantum.py`: asignación, QUBO, QAOA, circuito Qiskit y decodificación.
