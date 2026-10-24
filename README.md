@@ -1,4 +1,6 @@
 # QFire Cusco
+ 
+##Link: https://quantum-nina-yanapay.earlysnipe129.chatgpt.site
 
 **Ampliación entregada: fase 05 cuántica.** Ver [README_CUANTICA.md](README_CUANTICA.md) y `notebooks/05_optimizacion_cuantica_comparacion.ipynb`. La notebook 04 se conserva como referencia clásica. El contenido siguiente documenta la entrega original.
 
